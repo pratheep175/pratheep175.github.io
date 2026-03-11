@@ -1,9 +1,85 @@
-body {
-    font-family: Arial;
-    background-color: #f4f4f4;
-    text-align: center;
+body{
+    font-family: Arial, Helvetica, sans-serif,'Times New Roman', Times, serif;
+    margin:0;
+    background: linear-gradient(to top,rgb(8, 12, 2),rgb(40, 5, 156));
 }
 
-h1 {
-    color: blue;
+header{
+    background:linear-gradient(to right,skyblue,white);
+    color:darkblue;
+    padding-bottom:15px;
+    padding-top: 20px;
+    text-align:center;
+}
+.Navigation ul {
+    display: flex;
+    list-style: none; 
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.Navigation li {
+    margin-left: 25px;
+}
+
+.Navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.Navigation a:hover {
+    color: #007bff; /* மவுஸ் வைக்கும்போது ப்ளூ நிறமாக மாறும் */
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:8px;
+    box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+}
+
+.profile img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    margin-right:20px;
+}
+
+h2{
+    color:#0a66c2;
+}
+
+.skills span{
+    background:#e7f3ff;
+    padding:6px 12px;
+    margin:5px;
+    display:inline-block;
+    border-radius:20px;
+}
+
+a{
+    color:#0a66c2;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
 }
