@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif,'Times New Roman', Times, serif;
     margin:0;
-    background: linear-gradient(to top,rgb(5, 39, 61),rgb(7, 110, 141));
+    background: linear-gradient(to right,rgb(3, 36, 58),rgb(9, 67, 85));
 }
 p{
     color: darkblue;
@@ -10,8 +10,8 @@ p{
 header{
     background:linear-gradient(to right,skyblue,white);
     color:darkblue;
-    padding-bottom:15px;
-    padding-top: 20px;
+    padding-bottom:8px;
+    padding-top: 2px;
     text-align:center;
 }
 .Navigation ul {
@@ -43,7 +43,7 @@ header{
 }
 
 .card{
-    background:linear-gradient(to right,white,rgb(153, 152, 152));
+    background:linear-gradient(to right,white,rgb(189, 183, 183));
     padding:20px;
     margin-bottom:20px;
     border-radius:8px;
@@ -67,7 +67,7 @@ h2{
 }
 
 .skills span{
-    background:linear-gradient(skyblue,white);
+    background:linear-gradient(rgb(176, 226, 246),white);
     padding:6px 12px;
     margin:5px;
     display:inline-block;
@@ -81,7 +81,7 @@ a{
 
 footer{
     text-align:center;
-    padding:20px;
-    background:#ffffff;
-    color:rgb(0, 0, 0);
+    padding: 2px;
+    background:#7b7b7b;
+    color:darkblue;
 }
