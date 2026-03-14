@@ -8,40 +8,77 @@ margin:0;
 background: linear-gradient(to right,#03243a,#094355);
 }
 
-p{
-color:white;
-}
+/* HEADER */
 
 header{
-background:linear-gradient(to right,skyblue,white);
-color:darkblue;
+background: linear-gradient(135deg,#0a66c2,#3da5ff);
+color:rgb(255, 255, 255);
 text-align:center;
-padding:10px;
+padding:25px 10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+position:sticky;
+top:0;
+z-index:1000;
 }
+
+header h1{
+margin:0;
+font-size:32px;
+letter-spacing:2px;
+}
+
+header p{
+margin:8px 0 15px 0;
+font-size:15px;
+color:#e6f3ffd8;
+}
+
+
+/* NAVIGATION */
 
 .Navigation ul{
 display:flex;
 justify-content:center;
+align-items:center;
+gap:30px;
 list-style:none;
 padding:0;
-margin:10px 0;
+margin:0;
 }
 
 .Navigation li{
-margin:0 20px;
+position:relative;
 }
 
 .Navigation a{
 text-decoration:none;
-color:#333;
-font-weight:bold;
+color:rgb(6, 7, 111);
+font-weight:600;
+font-size:15px;
+padding:5px;
 transition:0.3s;
 }
 
-.Navigation a:hover{
-color:#0758af;
+/* Hover underline animation */
+
+.Navigation a::after{
+content:"";
+position:absolute;
+width:0%;
+height:1px;
+background:rgb(15, 4, 173);
+left: 1px;;
+bottom:-3px;
+transition:0.5s;
 }
 
+.Navigation a:hover::after{
+width:100%;
+}
+
+.Navigation a:hover{
+color:#d9ecff;
+}
 .container{
 width:80%;
 margin:auto;
@@ -84,6 +121,9 @@ padding:6px 12px;
 margin:5px;
 display:inline-block;
 border-radius:10px;
+}
+.skills span:hover{
+    transform:translateY(-2px);
 }
 
 a{
