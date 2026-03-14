@@ -35,6 +35,9 @@ color:#e6f3ffd8;
 
 
 /* NAVIGATION */
+.Navigation{
+position:relative;
+}
 
 .Navigation ul{
 display:flex;
@@ -79,6 +82,30 @@ width:100%;
 .Navigation a:hover{
 color:#d9ecff;
 }
+
+/* MOBILE DESIGN */
+
+@media (max-width:768px){
+
+.Navigation ul{
+flex-direction:column;
+display:none;
+background:#0a66c2;
+width:100%;
+padding:10px 0;
+}
+
+.Navigation ul.active{
+display:flex;
+}
+
+.menu-toggle{
+display:block;
+}
+
+}
+
+
 .container{
 width:80%;
 margin:auto;
