@@ -30,7 +30,7 @@ letter-spacing:2px;
 header p{
 margin:8px 0 15px 0;
 font-size:15px;
-color:#e6f3ffd8;
+color:#d6d9dcd8;
 }
 
 
@@ -68,11 +68,11 @@ transition:0.3s;
 content:"";
 position:absolute;
 width:0%;
-height:1px;
+height:2px;
 background:rgb(15, 4, 173);
 left: 1px;;
 bottom:-3px;
-transition:0.5s;
+transition: 0.8s;
 }
 
 .Navigation a:hover::after{
@@ -81,28 +81,6 @@ width:100%;
 
 .Navigation a:hover{
 color:#d9ecff;
-}
-
-/* MOBILE DESIGN */
-
-@media (max-width:768px){
-
-.Navigation ul{
-flex-direction:column;
-display:none;
-background:#0a66c2;
-width:100%;
-padding:10px 0;
-}
-
-.Navigation ul.active{
-display:flex;
-}
-
-.menu-toggle{
-display:block;
-}
-
 }
 
 
@@ -160,14 +138,14 @@ text-decoration:none;
 
 footer{
 text-align:center;
-padding:15px;
+padding: 5px;
 background:#000000;
 color:white;
 }
 
 footer i{
-font-size:22px;
-margin:10px;
+font: size 10px;
+margin:5px;
 color:white;
 transition:0.3s;
 }
