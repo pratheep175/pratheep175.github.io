@@ -39,13 +39,17 @@ color:#d6d9dcd8;
 /* NAVIGATION */
 .Navigation{
 position:relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: linear-gradient(135deg,#0a66c2,#3da5ff);
 }
 
 .Navigation ul{
 display:flex;
 justify-content:center;
 align-items:center;
-gap: 10px;
+gap: 04px;
 list-style:none;
 padding:0;
 margin:0;
